@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#14532d"/>
+  <g transform="translate(920 195) scale(0.75)">
+    <rect width="320" height="320" fill="#0f3d22"/>
+    <g fill="#f0fdf4" opacity="0.9">
+      <rect x="0" y="0" width="80" height="80"/><rect x="160" y="0" width="80" height="80"/>
+      <rect x="80" y="80" width="80" height="80"/><rect x="240" y="80" width="80" height="80"/>
+      <rect x="0" y="160" width="80" height="80"/><rect x="160" y="160" width="80" height="80"/>
+      <rect x="80" y="240" width="80" height="80"/><rect x="240" y="240" width="80" height="80"/>
+    </g>
+  </g>
+  <g transform="translate(80 120)">
+    <rect width="72" height="72" rx="14" fill="#f0fdf4"/>
+    <rect x="14" y="14" width="22" height="22" fill="#14532d"/>
+    <rect x="36" y="36" width="22" height="22" fill="#14532d"/>
+  </g>
+  <text x="80" y="300" font-family="DejaVu Sans, sans-serif" font-size="68" font-weight="bold" fill="#ffffff">ChessTournament64</text>
+  <text x="80" y="380" font-family="DejaVu Sans, sans-serif" font-size="34" fill="#dcfce7">Chess tournament management</text>
+  <text x="80" y="428" font-family="DejaVu Sans, sans-serif" font-size="34" fill="#dcfce7">for organizers and arbiters</text>
+  <text x="80" y="530" font-family="DejaVu Sans, sans-serif" font-size="26" fill="#bbf7d0">Round robin · Swiss · Team · Knockout</text>
+</svg>

@@ -1,0 +1,119 @@
+---
+layout: default
+title: "ChessTournament64: chess tournament management for organizers and arbiters"
+---
+<section class="hero" aria-labelledby="hero-title">
+  <div class="container hero-inner">
+    <h1 id="hero-title">Run your chess tournament from registration to final standings.</h1>
+    <p class="lead">ChessTournament64 is a web app for organizers and arbiters. You can run round robin, Swiss, team and knockout events, with FIDE tiebreaks, TRF export and public pages for your players, all from your browser.</p>
+    <p class="cta-row">
+      <a class="button" href="{{ site.app_url }}">Open the app</a>
+      <a class="button button-secondary" href="#features">See features <span aria-hidden="true">&darr;</span></a>
+    </p>
+    <p class="small-print">Works in any modern browser. Available in English and Spanish.</p>
+  </div>
+</section>
+
+<section id="features" class="section" aria-labelledby="formats-title">
+  <div class="container">
+    <h2 id="formats-title">Every format your club and federation plays</h2>
+    <div class="card-grid">
+      <article class="card">
+        <h3>Round robin</h3>
+        <p>Berger tables from the FIDE Handbook, single or double round (colours reversed), plus a full cross-table. You can split a large field into balanced round-robin groups.</p>
+      </article>
+      <article class="card">
+        <h3>Swiss</h3>
+        <p>Dutch-system pairing, optional Baku acceleration, requested half-point, full-point or zero-point byes, and late entries. You review each round before you publish it.</p>
+      </article>
+      <article class="card">
+        <h3>Team tournaments</h3>
+        <p>Team Swiss or team round robin. You set boards per match, match points, roster size and board-order rules, enter lineups and board-by-board results, and get team standings with Olympiad-style Sonneborn-Berger and best-board prizes.</p>
+      </article>
+      <article class="card">
+        <h3>Knockout &amp; groups</h3>
+        <p>Seeded brackets with tiebreak games and Armageddon, an optional third-place match, and a &ldquo;Champions League&rdquo; format that runs groups first and then a knockout.</p>
+      </article>
+      <article class="card">
+        <h3>Leagues</h3>
+        <p>Group related tournaments into a league, with promotion and relegation counts.</p>
+      </article>
+    </div>
+
+    <h2 id="tools-title" class="section-subtitle">Tools for organizers and arbiters</h2>
+    <ul class="feature-list" aria-labelledby="tools-title">
+      <li><strong>Player entry your way:</strong> add players by FIDE ID lookup, by hand, from an Excel/CSV file, or through a public online sign-up form that you approve.</li>
+      <li><strong>FIDE tiebreaks:</strong> Buchholz (with cuts), Sonneborn-Berger, Direct Encounter, Progressive Scores, ARO, Koya and more, using FIDE C.07 codes, in the order you choose.</li>
+      <li><strong>Ratings:</strong> performance rating and an estimated rating change for every player, in standard, rapid or blitz.</li>
+      <li><strong>TRF export:</strong> a FIDE TRF file ready to send for rating.</li>
+      <li><strong>Excel export:</strong> standings, players and teams as .xlsx files.</li>
+      <li><strong>Prizes:</strong> prize categories by age, rating and more, awarded in priority order without doubling up.</li>
+      <li><strong>Printouts:</strong> pairings, standings, team matches and score slips, ready for the playing hall.</li>
+      <li><strong>Pairings by email:</strong> send each round&rsquo;s pairings to players and team captains. Every email has a one-click unsubscribe.</li>
+      <li><strong>Public pages:</strong> choose which of standings, pairings, results and sign-up are public, and list your event in the public tournament directory if you want.</li>
+      <li><strong>Work as a team:</strong> invite co-organizers and arbiters as editors or viewers.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="how-it-works" class="section section-alt" aria-labelledby="how-title">
+  <div class="container">
+    <h2 id="how-title">From sign-up to prize-giving in four steps</h2>
+    <ol class="steps">
+      <li><h3>Create your tournament.</h3><p>Pick the format, time control, scoring and tiebreaks.</p></li>
+      <li><h3>Add players or teams.</h3><p>Look them up by FIDE ID, import a spreadsheet, or open public registration.</p></li>
+      <li><h3>Pair and play.</h3><p>Generate pairings, print or email them, and enter results as games finish.</p></li>
+      <li><h3>Publish and finish.</h3><p>Share live standings, award prizes, and export the TRF and Excel files.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section id="why" class="section" aria-labelledby="why-title">
+  <div class="container">
+    <h2 id="why-title">Why organizers choose ChessTournament64</h2>
+    <ul class="why-list">
+      <li><strong>Built on the FIDE Handbook.</strong> Berger tables, C.07 tiebreak codes, Baku acceleration (C.04.7), B.02 rating calculations and TRF export are part of the app, not add-ons.</li>
+      <li><strong>Individual and team events in one tool,</strong> including the details that matter for teams: board order, lineups and best-board prizes.</li>
+      <li><strong>More than Swiss and round robin:</strong> knockouts, group stages and leagues are built in.</li>
+      <li><strong>Nothing to install.</strong> It runs in the browser on any computer at the venue, and your co-arbiters can work from their own devices.</li>
+      <li><strong>English and Spanish</strong> interface.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="faq" class="section section-alt" aria-labelledby="faq-title">
+  <div class="container container-narrow">
+    <h2 id="faq-title">Frequently asked questions</h2>
+    <details>
+      <summary>Which tournament formats are supported?</summary>
+      <p>Round robin (single or double), Swiss (Dutch system, with optional Baku acceleration), team Swiss and team round robin, knockout, round-robin groups, group-then-knockout, and leagues. You can also pair any round manually.</p>
+    </details>
+    <details>
+      <summary>Is the Swiss pairing FIDE-endorsed?</summary>
+      <p>No. ChessTournament64 uses its own implementation of the Dutch system. For FIDE-rated events, check each round&rsquo;s pairings with a FIDE-endorsed program before you publish them.</p>
+    </details>
+    <details>
+      <summary>Can I submit my tournament for FIDE rating?</summary>
+      <p>ChessTournament64 exports a FIDE TRF file that you can send to your rating officer or federation. It doesn&rsquo;t submit results to FIDE directly.</p>
+    </details>
+    <details>
+      <summary>Do my players need an account?</summary>
+      <p>No. Players can register through your public sign-up form, see the public pages you publish, and receive pairings by email. Only organizers and collaborators sign in.</p>
+    </details>
+    <details>
+      <summary>Can other arbiters help me run the event?</summary>
+      <p>Yes. Invite them by email as editors (who can make changes) or viewers (read-only).</p>
+    </details>
+    <details>
+      <summary>What languages are available?</summary>
+      <p>The app is available in English and Spanish.</p>
+    </details>
+  </div>
+</section>
+
+<section class="cta-band" aria-labelledby="cta-title">
+  <div class="container">
+    <h2 id="cta-title">Ready for your next tournament?</h2>
+    <p><a class="button button-light" href="{{ site.app_url }}">Open the app</a></p>
+  </div>
+</section>

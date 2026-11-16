@@ -1,0 +1,23 @@
+title: ChessTournament64
+tagline: Chess tournament management for organizers and arbiters
+description: >-
+  Run round robin, Swiss, team and knockout chess tournaments in your browser.
+  Registration, pairings, results, FIDE tiebreaks, TRF export and public
+  standings pages, all in one place.
+url: "https://chesstournament64.com"
+# The Pages workflow passes --baseurl; leave empty for the custom domain.
+baseurl: ""
+lang: en
+app_url: "https://app.chesstournament64.com"
+
+plugins:
+  - jekyll-sitemap
+
+exclude:
+  - .github/
+  - .jekyll-cache/
+  - .bundle/
+  - vendor/
+  - Gemfile
+  - Gemfile.lock
+  - README.md
