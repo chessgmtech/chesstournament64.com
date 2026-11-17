@@ -1,0 +1,20 @@
+{%- comment -%}
+  Links to the same page in every language from _data/i18n.yml. Pages are
+  matched by their `ref:` front matter; if a page has no translation, the
+  link goes to that language's home page.
+{%- endcomment -%}
+<span class="lang-switch" role="group" aria-label="{{ t.language_label }}">
+{%- for entry in site.data.i18n -%}
+  {%- assign code = entry[0] -%}
+  {%- assign l = entry[1] -%}
+  {%- assign target = l.home -%}
+  {%- if page.ref -%}
+    {%- for p in site.pages -%}
+      {%- assign p_lang = p.lang | default: site.lang -%}
+      {%- if p.ref == page.ref and p_lang == code -%}{%- assign target = p.url -%}{%- endif -%}
+    {%- endfor -%}
+  {%- endif -%}
+  {%- unless forloop.first %}<span class="lang-sep" aria-hidden="true">/</span>{% endunless %}
+  <a href="{{ target | relative_url }}" lang="{{ code }}" hreflang="{{ code }}" aria-label="{{ l.name }} ({{ l.short }})"{% if code == lang %} aria-current="true"{% endif %}>{{ l.short }}</a>
+{%- endfor -%}
+</span>

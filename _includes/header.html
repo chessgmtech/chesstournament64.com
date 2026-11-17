@@ -1,16 +1,17 @@
 <header class="site-header">
   <div class="container header-inner">
-    <a class="wordmark" href="{{ '/' | relative_url }}">
+    <a class="wordmark" href="{{ home }}">
       <img src="{{ '/assets/img/favicon.svg' | relative_url }}" alt="" width="28" height="28">
       <span>ChessTournament64</span>
     </a>
-    <nav aria-label="Main">
+    <nav aria-label="{{ t.nav_main_label }}">
       <ul class="nav-list">
-        <li><a href="{{ '/#features' | relative_url }}">Features</a></li>
-        <li><a href="{{ '/#how-it-works' | relative_url }}">How it works</a></li>
-        <li><a href="{{ '/#why' | relative_url }}">Why ChessTournament64</a></li>
-        <li><a href="{{ '/#faq' | relative_url }}">FAQ</a></li>
-        <li><a class="button button-small" href="{{ site.app_url }}">Open the app</a></li>
+        <li><a href="{{ home }}#features">{{ t.nav_features }}</a></li>
+        <li><a href="{{ home }}#how-it-works">{{ t.nav_how }}</a></li>
+        <li><a href="{{ home }}#why">{{ t.nav_why }}</a></li>
+        <li><a href="{{ home }}#faq">{{ t.nav_faq }}</a></li>
+        <li><a class="button button-small" href="{{ site.app_url }}">{{ t.open_app }}</a></li>
+        <li>{% include language-switcher.html %}</li>
       </ul>
     </nav>
   </div>

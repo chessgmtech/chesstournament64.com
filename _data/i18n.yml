@@ -1,0 +1,44 @@
+# UI strings shared by _layouts/default.html and _includes/.
+# Each page picks its language with `lang:` in front matter (default: site.lang).
+# Pages that are translations of each other share the same `ref:` value; that
+# drives the hreflang links and the language switcher.
+# Keys are listed in the order the language switcher shows them.
+
+en:
+  name: English
+  short: EN
+  home: /
+  locale: en_GB
+  # Empty: falls back to site.description.
+  description:
+  skip_link: Skip to content
+  nav_main_label: Main
+  nav_footer_label: Footer
+  nav_features: Features
+  nav_how: How it works
+  nav_why: Why ChessTournament64
+  nav_faq: FAQ
+  open_app: Open the app
+  language_label: Language
+  og_image_alt: "ChessTournament64: chess tournament management for organizers and arbiters"
+
+es:
+  name: Español
+  short: ES
+  home: /es/
+  locale: es_ES
+  description: >-
+    Organiza torneos de ajedrez round robin, suizos, por equipos y
+    eliminatorios desde el navegador. Inscripciones, emparejamientos,
+    resultados, desempates FIDE, exportación TRF y clasificaciones públicas,
+    todo en un mismo lugar.
+  skip_link: Saltar al contenido
+  nav_main_label: Principal
+  nav_footer_label: Pie de página
+  nav_features: Funciones
+  nav_how: Cómo funciona
+  nav_why: Ventajas
+  nav_faq: Preguntas frecuentes
+  open_app: Abrir la app
+  language_label: Idioma
+  og_image_alt: "ChessTournament64: gestión de torneos de ajedrez para organizadores y árbitros"
