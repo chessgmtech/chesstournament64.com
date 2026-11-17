@@ -153,6 +153,33 @@ h3 {
   text-decoration: underline;
 }
 
+/* Language switcher */
+
+.lang-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.95rem;
+}
+
+.lang-switch a[aria-current] {
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.nav-list .lang-switch a[aria-current] {
+  color: var(--green-900);
+}
+
+.lang-sep {
+  color: var(--muted);
+}
+
+.site-footer .lang-sep {
+  color: var(--green-50);
+}
+
 /* Buttons */
 
 .button {
